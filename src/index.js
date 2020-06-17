@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import hello from './hello';
 
 ReactDOM.render(
-  <App />,
+  <hello />,
   document.getElementById('root')
 );
 
